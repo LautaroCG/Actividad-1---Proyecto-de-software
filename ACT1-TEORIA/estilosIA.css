@@ -1,0 +1,78 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para secciones */
+section {
+    padding: 20px;
+    display: none;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilo para enlaces activos */
+:target {
+    display: block;
+}
+
+/* Estilos para categorías y plantas */
+.categoria {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.planta {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.planta img {
+    max-width: 100%;
+    height: auto;
+}
+
+.planta h3 {
+    margin: 10px 0;
+}
+
+.planta a {
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.planta a:hover {
+    background-color: #555;
+}
